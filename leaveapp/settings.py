@@ -168,12 +168,12 @@ USE_I18N = True
 
 USE_TZ = True
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST = "mail.velandev.life"
-EMAIL_PORT = 465  # Use 465 for SSL or 587 for TLS
-EMAIL_USE_TLS = False  # Set to True if using port 587, False if using port 465
-EMAIL_USE_SSL = True  # Set to True if using port 465
-EMAIL_HOST_USER = "kumaravel@velandev.life"
-EMAIL_HOST_PASSWORD = "Kumara07!"  # Replace with the actual password
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_PORT = 587  # Use 587 for TLS
+EMAIL_USE_TLS = True  # Use TLS for secure connection
+EMAIL_USE_SSL = False  # Set False when using TLS
+EMAIL_HOST_USER = "kumaravelguna07@gmail.com"  # Replace with your Gmail address
+EMAIL_HOST_PASSWORD = "mgwk owlc ynxe daik"  # Use an App Password, NOT your Gmail password
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
